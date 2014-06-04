@@ -31,10 +31,10 @@ $this->widget('application.extensions.SocialShareButton.SocialShareButton', arra
 ~~~
 
 
-Download
-========
+Yii Extension
+=============
 
-https://github.com/rohitsuthar/SocialShareButton
+http://www.yiiframework.com/extension/social-share-button/
 
 
 Usual parameters to be adjusted

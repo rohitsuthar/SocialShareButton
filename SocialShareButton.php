@@ -6,7 +6,12 @@
  * @copyright 2014 Rohit Suthar
  * @package SocialShareButton
  * @version 1.0
+ * @Like Us on -  https://facebook.com/yiiexperts
+ * @Follow Us on -  https://twitter.com/yiiexperts
+ * @Mail -  yiiexpert@gmail.com
+ * @For More Extension Visit -  www.yiiexpert.github.io
  */
+
 
 class SocialShareButton extends CInputWidget
 {

@@ -23,7 +23,7 @@ class SocialShareButton extends CInputWidget
 	
 	
 	/**
-	 * @var string twitter username - rohisuthar
+	 * @var string twitter username - yiiexperts
 	 */
 	public $data_via='';
 

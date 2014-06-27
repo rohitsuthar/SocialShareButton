@@ -42,4 +42,4 @@ Usual parameters to be adjusted
 
 - style: share button styles (string: vertical or horizontal).
 - social media: social network which you must have (facebook, twitter, googleplus, linkedin.);
-- data_via: You can specify your twitter username (string: yiiexpert)
+- data_via: You can specify your twitter username (string: yiiexperts)

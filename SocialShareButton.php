@@ -35,6 +35,11 @@ class SocialShareButton extends CInputWidget
 	
 	public $networks = array('facebook','googleplus','linkedin','twitter');
 
+	
+	/**
+	 * @var string url to share
+	 */
+	public $data_url = Yii::app()->createAbsoluteUrl(Yii::app()->request->url);
 
 	/**
 	 * The extension initialisation

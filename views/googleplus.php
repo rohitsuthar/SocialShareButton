@@ -5,7 +5,7 @@
 		$data_type = 'bubble';
 ?>
 
-<div class="g-plus" data-href="<?php echo Yii::app()->createAbsoluteUrl(Yii::app()->request->url); ?>" data-action="share" data-annotation="<?=$data_type?>"></div>
+<div class="g-plus" data-href="<?php echo $url; ?>" data-action="share" data-annotation="<?=$data_type?>"></div>
 
 <script type="text/javascript">
   (function() {

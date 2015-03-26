@@ -15,7 +15,11 @@
 
 class SocialShareButton extends CInputWidget
 {
-	
+	/**
+	 * @var string URL to be shared
+	 */
+	public $url;
+    
 	/**
 	 * @var string box alignment - horizontal, vertical
 	 */
@@ -44,6 +48,10 @@ class SocialShareButton extends CInputWidget
 
 	public function init()
 	{
+        if(empty($this->url)) {
+            $this->url = Yii::app()->createAbsoluteUrl(Yii::app()->request->url);
+        }
+        
 		self::renderSocial();
 	}
 
@@ -55,8 +63,8 @@ class SocialShareButton extends CInputWidget
 	 */
 	private function renderSocial(){
 		$rendered = '';
-		foreach($this->networks as $params)
-			$rendered .= $this->render($params);
+		foreach($this->networks as $network)
+			$rendered .= $this->render($network, array('url' => $this->url));
 		echo $this->render('share', array('rendered'=>$rendered));
 	}
 }
